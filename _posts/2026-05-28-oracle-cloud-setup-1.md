@@ -35,8 +35,8 @@ AI Trading System
     ↓
 Oracle Cloud Compute Instance (AMD-based)
     ├── OS: Ubuntu 22.04 LTS
-    ├── CPU: 1 vCPU (AMD EPYC)
-    ├── Memory: 1 GB
+    ├── CPU: 4 vCPU (AMD EPYC)
+    ├── Memory: 24 GB
     └── Network: Public IP + Private VPC
 ```
 
