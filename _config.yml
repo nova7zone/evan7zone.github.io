@@ -28,8 +28,8 @@ github_username: Evan-ai-pro
 timezone: Asia/Seoul
 
 # 다크 모드 설정
-minima:
-  skin: dark
+# color_scheme 사용 (더 최신 버전)
+color_scheme: dark
 
 # 헤더 메뉴 설정 (우측 상단 메뉴 버튼)
 header_pages:
