@@ -1,38 +1,39 @@
-# GitHub Pages 블로그 설정
+# GitHub Pages 블로그 설정 (just-the-docs 테마)
 
-# 기본 설정
 title: Evan의 기억공간
 description: 자동매매 시스템과 엔지니어링에 대해 배운 것들을 기록합니다.
 url: https://Evan-ai-pro.github.io
 baseurl: ""
-
-# 저자 정보
 author: Evan
 
-# 테마 (GitHub Pages 지원)
+# 테마
 theme: just-the-docs
 
-# 플러그인
+# 플러그인 (GitHub Pages 지원만)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# 블로그 설정
+# 마크다운
 markdown: kramdown
 highlighter: rouge
 
 # 포스트 설정
-show_excerpts: false  # 목록에서 글 미리보기 표시
+show_excerpts: false
 
 # 사이트 설정
 github_username: Evan-ai-pro
 
-# ============== 추가 설정 ==============
-
-# 시간대 설정 (중요: 거래 시간대)
+# 시간대
 timezone: Asia/Seoul
 
-# 기본값 설정 (모든 포스트에 자동 적용)
+# just-the-docs 설정
+color_scheme: dark
+search_enabled: true
+footer_content: "Copyright &copy; 2026 Evan. All rights reserved."
+back_to_top: true
+
+# 기본값
 defaults:
   - scope:
       path: ""
@@ -41,23 +42,10 @@ defaults:
       layout: "post"
       author: "Evan"
 
-# 페이지네이션 (선택사항)
-paginate: 10
-paginate_path: "/page:num/"
-
-# 태그 클라우드용 collections (선택사항)
-collections:
-  tags:
-    output: true
-    permalink: /:collection/:name/
-# 다크 테마
-color_scheme: dark
-
-footer_content: "Copyright &copy; 2026 Evan. All rights reserved."
-
 # 빌드 설정
 exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
   - README.md
+  - LICENSE
