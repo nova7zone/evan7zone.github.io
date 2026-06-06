@@ -1,7 +1,7 @@
 # GitHub Pages 블로그 설정
 
 # 기본 설정
-title: Evan의 기억 공간
+title: Evan의 기억공간
 description: 자동매매 시스템과 엔지니어링에 대해 배운 것들을 기록합니다.
 url: https://Evan-ai-pro.github.io
 baseurl: ""
@@ -27,8 +27,33 @@ show_excerpts: true  # 목록에서 글 미리보기 표시
 # 사이트 설정
 github_username: Evan-ai-pro
 
+# ============== 추가 설정 ==============
+
+# 시간대 설정 (중요: 거래 시간대)
+timezone: Asia/Seoul
+
+# 기본값 설정 (모든 포스트에 자동 적용)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Evan"
+
+# 페이지네이션 (선택사항)
+paginate: 10
+paginate_path: "/page:num/"
+
+# 태그 클라우드용 collections (선택사항)
+collections:
+  tags:
+    output: true
+    permalink: /:collection/:name/
+
 # 빌드 설정
 exclude:
   - .gitignore
   - Gemfile
   - Gemfile.lock
+  - README.md
