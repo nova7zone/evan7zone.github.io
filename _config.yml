@@ -2,7 +2,7 @@
 
 title: Evan의 기억공간
 description: 자동매매 시스템과 엔지니어링에 대해 배운 것들을 기록합니다.
-url: https://Evan-ai-pro.github.io
+url: https://nova7zone.github.io
 baseurl: ""
 author: Evan
 
@@ -22,7 +22,7 @@ highlighter: rouge
 show_excerpts: false
 
 # 사이트 설정
-github_username: Evan-ai-pro
+github_username: Nova7zone
 
 # 시간대
 timezone: Asia/Seoul
