@@ -25,9 +25,7 @@ highlighter: rouge
 show_excerpts: true  # 목록에서 글 미리보기 표시
 
 # 사이트 설정
-twitter_username: ""  # 있으면 추가
 github_username: Evan-ai-pro
-linkedin_username: ""  # 있으면 추가
 
 # 빌드 설정
 exclude:
