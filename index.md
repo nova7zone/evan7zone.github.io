@@ -23,8 +23,8 @@ layout: home
 
 ## 🔗 연결
 
-- **GitHub**: [Evan-ai-pro](https://github.com/Evan-ai-pro)
-- **블로그 저장소**: [evan-ai-pro.github.io](https://github.com/Evan-ai-pro/evan-ai-pro.github.io)
+- **GitHub**: [Nova7zone](https://github.com/Nova7zone)
+- **블로그 저장소**: [nova7zone.github.io](https://github.com/Nova7zone/nova7zone.github.io)
 
 ---
 
