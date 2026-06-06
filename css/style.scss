@@ -1,0 +1,118 @@
+---
+---
+
+@import "minima";
+
+/* 다크 모드 강제 적용 */
+:root {
+  --text-color: #c5c5c5;
+  --background-color: #1d1d1d;
+  --link-color: #09f;
+  --border-color: #404040;
+}
+
+/* 전체 배경 */
+body {
+  background-color: #1d1d1d !important;
+  color: #c5c5c5 !important;
+}
+
+/* 헤더 */
+.site-header {
+  background-color: #1d1d1d !important;
+  border-bottom-color: #404040 !important;
+}
+
+/* 제목 */
+h1, h2, h3, h4, h5, h6 {
+  color: #e8e8e8 !important;
+}
+
+/* 링크 */
+a {
+  color: #09f !important;
+}
+
+a:visited {
+  color: #a78bfa !important;
+}
+
+/* 코드 블록 */
+code {
+  background-color: #2d2d2d !important;
+  color: #c5c5c5 !important;
+  border-color: #404040 !important;
+}
+
+pre {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+}
+
+/* 블록쿼트 */
+blockquote {
+  border-left-color: #404040 !important;
+  color: #a8a8a8 !important;
+}
+
+/* 테이블 */
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #2d2d2d !important;
+  color: #c5c5c5 !important;
+  border-color: #404040 !important;
+}
+
+table td {
+  border-color: #404040 !important;
+}
+
+/* 입력 필드 */
+input, textarea, select {
+  background-color: #2d2d2d !important;
+  color: #c5c5c5 !important;
+  border-color: #404040 !important;
+}
+
+/* 버튼 */
+button {
+  background-color: #404040 !important;
+  color: #c5c5c5 !important;
+  border-color: #505050 !important;
+}
+
+button:hover {
+  background-color: #505050 !important;
+}
+
+/* 푸터 */
+.site-footer {
+  background-color: #1d1d1d !important;
+  border-top-color: #404040 !important;
+  color: #c5c5c5 !important;
+}
+
+/* 포스트 */
+.post-content {
+  color: #c5c5c5 !important;
+}
+
+.post-meta {
+  color: #a8a8a8 !important;
+}
+
+/* 메뉴 */
+.site-nav {
+  background-color: #1d1d1d !important;
+}
+
+.site-nav .nav-trigger ~ .trigger {
+  background-color: #2d2d2d !important;
+}
+
+.site-nav a {
+  color: #09f !important;
+}
