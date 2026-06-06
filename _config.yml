@@ -24,6 +24,8 @@ show_excerpts: false
 # 사이트 설정
 github_username: Nova7zone
 
+# Post  순서 최신 순
+post_sort_order: descending
 # 시간대
 timezone: Asia/Seoul
 
